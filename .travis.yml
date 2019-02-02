@@ -2,7 +2,7 @@
 language: php
 php:
   - 7.1.9
-  
+
 cache:
   directories:
     - $HOME/.composer/cache/files
@@ -11,13 +11,6 @@ cache:
 env:
   global:
     - SYMFONY_DEPRECATIONS_HELPER=weak
-  
-matrix:
-  fast_finish: true
-
-
-before_install:
-  - composer self-update
 
 install:
   - composer install
