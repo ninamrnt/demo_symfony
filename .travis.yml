@@ -9,7 +9,7 @@ cache:
 
 env:
   global:
-    - SYMFONY_DEPRECATIONS_HELPER=29
+    - SYMFONY_DEPRECATIONS_HELPER=weak
   
 matrix:
   fast_finish: true
