@@ -36,7 +36,7 @@ class HomepageController extends AbstractController
         if (!$usager) 
             throw $this->createNotFoundException('Usager inconnu');
         
-        dump($usager);
+        // dump($usager);
 
         return $this->render('homepage/usager.html.twig', [
             'usager' => $usager,
